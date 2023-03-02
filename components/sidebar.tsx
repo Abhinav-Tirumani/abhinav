@@ -18,23 +18,11 @@ const navItems = {
     y: 35,
     w: '65px',
   },
-  '/blog': {
-    name: 'blog',
-    x: 127,
-    y: 69,
-    w: '56px',
-  },
-  '/guestbook': {
-    name: 'guestbook',
-    x: 182,
-    y: 104,
-    w: '100px',
-  },
 };
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
+    <Link aria-label="Abhinav Tirumani" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"
