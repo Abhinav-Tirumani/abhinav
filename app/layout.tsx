@@ -14,18 +14,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Abhinav Tirumani',
+    template: '%s | Abhinav Tirumani',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Always Single',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
+    title: 'Abhinav Tirumani',
+    description: 'Always Single.',
+    url: 'https://abhinav-iota.vercel.app',
     siteName: 'Lee Robinson',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: '',
         width: 1920,
         height: 1080,
       },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Abhinav Tirumani',
     card: 'summary_large_image',
   },
   icons: {
