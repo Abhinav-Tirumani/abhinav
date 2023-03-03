@@ -17,15 +17,15 @@ export const metadata: Metadata = {
     default: 'Abhinav Tirumani',
     template: '%s | Abhinav Tirumani',
   },
-  description: 'Always Single',
+  description: 'Always Sporty and creative.',
   openGraph: {
     title: 'Abhinav Tirumani',
-    description: 'Always Single.',
+    description: 'Always Sporty and creative.',
     url: 'https://abhinav-iota.vercel.app',
     siteName: 'Lee Robinson',
     images: [
       {
-        url: '',
+        url: 'https://wallpapercave.com/wp/wp4925954.jpg',
         width: 1920,
         height: 1080,
       },
