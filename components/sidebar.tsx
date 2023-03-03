@@ -23,48 +23,24 @@ const navItems = {
 function Logo() {
   return (
     <Link aria-label="Abhinav Tirumani" href="/">
-  <motion.svg
-    className="text-black dark:text-white h-[25px] md:h-[37px]"
-    width="25"
-    height="37"
-    viewBox="0 0 232 316"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <motion.path
-      initial={{
-        opacity: 0,
-        pathLength: 0,
-      }}
-      animate={{
-        opacity: 1,
-        pathLength: 1,
-      }}
-      transition={{
-        duration: 0.5,
-        type: 'spring',
-        stiffness: 50,
-      }}
-      d="M39 316V0"
-      stroke="currentColor"
-      strokeWidth={78}
-    />
-    <motion.path
-      initial={{ x: -200, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{
-        duration: 0.5,
-        type: 'spring',
-        stiffness: 50,
-      }}
-
-      fill="currentColor"
-      // change the L to A in the d attribute M232 314.998H129.852L232 232.887V314.998Z
-      d="M232 314.998H129.852L203.83 152.644L176.03 152.644L116 314.998H25.369L105.754 126.325L127.985 126.325L232 314.998Z"
-    />
-  </motion.svg>
-</Link>
-
+      <motion.svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  width="800px"
+  height="800px"
+  fill="#000000"
+  initial={{ opacity: 0, y: -100 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5, type: 'spring', stiffness: 50 }}
+>
+  <motion.path
+    d="M18.97021,19.75732,15.34912,5.27246A2.9958,2.9958,0,0,0,12.43848,3h-.877A2.9958,2.9958,0,0,0,8.65088,5.27246L5.02979,19.75732a1.0001,1.0001,0,0,0,1.94042.48536L8.28082,15h7.43836l1.31061,5.24268a1.0001,1.0001,0,0,0,1.94042-.48536ZM8.78082,13l1.81049-7.24219A.99825.99825,0,0,1,11.56152,5h.877a.99825.99825,0,0,1,.97021.75781L15.21918,13Z"
+    initial={{ pathLength: 0, opacity: 0 }}
+    animate={{ pathLength: 1, opacity: 1 }}
+    transition={{ duration: 0.5, type: 'spring', stiffness: 50 }}
+  />
+</motion.svg>
+    </Link>
   );
 }
 
