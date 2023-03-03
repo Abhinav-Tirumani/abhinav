@@ -31,13 +31,11 @@ export default async function HomePage() {
         Hey, I'm Abhinav. I'm learning how to develop <b>websites.</b> I also love drawing art in my free time. Cricket is my Favorite Hobby.
       </p>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
-        <Image
+        <img
           alt="Abhinav"
-          className="rounded-full grayscale"
-          src="https://wallpapercave.com/wp/wp4925954.jpg"
+          className="rounded-full"
+          src="https://raw.githubusercontent.com/jujutsugod/abhinav/main/IMG-20230303-WA0006.jpg"
           placeholder="blur"
-          width={100}
-          priority
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
           <a
