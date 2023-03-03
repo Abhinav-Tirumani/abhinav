@@ -26,8 +26,8 @@ function Logo() {
       <motion.svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 24 24"
-  width="800px"
-  height="800px"
+  width="25px"
+  height="32px"
   fill="#000000"
   initial={{ opacity: 0, y: -100 }}
   animate={{ opacity: 1, y: 0 }}
