@@ -23,23 +23,29 @@ const navItems = {
 function Logo() {
   return (
     <Link aria-label="Abhinav Tirumani" href="/">
-      <motion.svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
-  width="25px"
-  height="32px"
-  fill="#000000"
-  initial={{ opacity: 0, y: -100 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.5, type: 'spring', stiffness: 50 }}
->
+      <motion.svg fill="#ffffff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
   <motion.path
-    d="M18.97021,19.75732,15.34912,5.27246A2.9958,2.9958,0,0,0,12.43848,3h-.877A2.9958,2.9958,0,0,0,8.65088,5.27246L5.02979,19.75732a1.0001,1.0001,0,0,0,1.94042.48536L8.28082,15h7.43836l1.31061,5.24268a1.0001,1.0001,0,0,0,1.94042-.48536ZM8.78082,13l1.81049-7.24219A.99825.99825,0,0,1,11.56152,5h.877a.99825.99825,0,0,1,.97021.75781L15.21918,13Z"
-    initial={{ pathLength: 0, opacity: 0 }}
-    animate={{ pathLength: 1, opacity: 1 }}
-    transition={{ duration: 0.5, type: 'spring', stiffness: 50 }}
+    initial={{
+      opacity: 0,
+      pathLength: 0,
+    }}
+    animate={{
+      opacity: 1,
+      pathLength: 1,
+    }}
+    transition={{
+      duration: 0.5,
+      type: 'spring',
+      stiffness: 50,
+    }}
+    d="M18.97021,19.75732,15.34912,5.27246A2.9958,2.9958,0,0,0,12.43848,3h-.877A2.9958,2.9958,0,0,0,8.65088,5.27246L5.02979,19.75732a1.0001,1.0001,0,0,0,1.94042.48536L8.28082,15h7.43836l1.31061,5.24268a1.0001,1.0001,0,0,0,1.94042-.48536Z"
+    stroke="#ffffff"
+    strokeWidth={2}
+    strokeLinecap="round"
+    strokeLinejoin="round"
   />
 </motion.svg>
+
     </Link>
   );
 }
